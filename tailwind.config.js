@@ -8,6 +8,9 @@ module.exports = {
                 900: '#3b1857',
             },
         },
+        width: {
+            '104': '26rem',
+        },
     },
   },
   variants: {
