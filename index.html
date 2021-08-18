@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind</title>
     <link href="/tailwind.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="text-indigo-900 font-sans bg-blue-100">
     <div class="container mx-auto px-2 lg:px-0">
@@ -15,11 +17,11 @@
         </a>
         <!-- title and description section starts -->
         <div class="w-72 md:w-104">
-            <h1 class="text-2xl sm:text-4xl md:text-5xl font-black mt-10 uppercase">
+            <h1 class="text-2xl sm:text-4xl md:text-5xl font-black mt-10 uppercase" data-aos="zoom-out-right" data-aos-duration="2000">
                 Tell him about your fear
                 <span class="block text-sm text-right">Loe Power</span>
             </h1>
-            <h2 class="my-20 text-2xl">
+            <h2 class="my-20 text-2xl" data-aos="zoom-out-right" data-aos-duration="2000">
                 Fear is the word we use to describe our emotional reaction to something that seems dangerous. But the word "fear" is used in another way, too: to name something a person often feels afraid of. 
             </h2>
         </div>
@@ -75,5 +77,8 @@
     </footer>
     <!-- footer ends -->
     
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
